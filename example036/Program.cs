@@ -62,7 +62,11 @@ Console.Write("Введите размер массива: ");
 int arrayLength = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[arrayLength];
-
+if (arrayLength <= 0)
+{
+    Console.WriteLine("Массив пуст.");
+    return;
+}
 addNumbers(array);
 Console.WriteLine("Числа в массиве: ");
 showRandomNumbers(array);
@@ -74,12 +78,15 @@ if (countsForEven == 0)
     Console.Write("Отсутствуют.");
 }
 Console.WriteLine();
+Console.WriteLine("Количество чётных чисел: " + countsForEven);
 Console.WriteLine("Нечётные числа данного массива: ");
 int countsForUnEven = showUnevenNumbers(array);
 if (countsForUnEven == 0)
 {
     Console.Write("Отсутствуют.");
 }
+Console.WriteLine();
+Console.WriteLine("Количество нечётных чисел: " + countsForUnEven);
 Console.WriteLine();
 
 
