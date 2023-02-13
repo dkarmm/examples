@@ -59,7 +59,7 @@ int showUnevenNumbers(int[] array) // Функция показа нечёт ч�
 }
 
 Console.Write("Введите размер массива: "); // Введение размера массива от пользователя.
-int arrayLength = Convert.ToInt32(Console.ReadLine()); 
+int arrayLength = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 
 int[] array = new int[arrayLength]; // Определение размера массива от итога ввода.
