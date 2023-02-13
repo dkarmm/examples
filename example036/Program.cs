@@ -2,7 +2,7 @@
 // Показать количество нечетных\четных чисел
 Console.Clear();
 
-void addNumbers(int[] array)
+void addNumbers(int[] array) // Функция добавления в массив рандом чисел.
 {
     int index = 0;
     int size = array.Length;
@@ -13,7 +13,7 @@ void addNumbers(int[] array)
     }
 }
 
-void showRandomNumbers(int[] array)
+void showRandomNumbers(int[] array) // Функция показа этих чисел.
 {
     int index = 0;
     int size = array.Length;
@@ -24,7 +24,7 @@ void showRandomNumbers(int[] array)
     }
 }
 
-int showEvenNumbers(int[] array)
+int showEvenNumbers(int[] array) // Функция показа чёт чисел + вывод их количества.
 {
     int index = 0;
     int size = array.Length;
@@ -41,7 +41,7 @@ int showEvenNumbers(int[] array)
     return count;
 }
 
-int showUnevenNumbers(int[] array)
+int showUnevenNumbers(int[] array) // Функция показа нечёт чисел + вывод их количества.
 {
     int index = 0;
     int size = array.Length;
@@ -58,37 +58,37 @@ int showUnevenNumbers(int[] array)
     return count;
 }
 
-Console.Write("Введите размер массива: ");
-int arrayLength = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите размер массива: "); // Введение размера массива от пользователя.
+int arrayLength = Convert.ToInt32(Console.ReadLine()); 
+Console.Clear();
 
-int[] array = new int[arrayLength];
-if (arrayLength <= 0)
+int[] array = new int[arrayLength]; // Определение размера массива от итога ввода.
+if (arrayLength == 0)
 {
-    Console.WriteLine("Массив пуст.");
+    Console.WriteLine("Массив пуст."); // Отмена операций, если пользователь ввёл 0 и меньше.
     return;
 }
-addNumbers(array);
+addNumbers(array); // Начало работы методов.
 Console.WriteLine("Числа в массиве: ");
 showRandomNumbers(array);
 Console.WriteLine();
+Console.WriteLine();
 Console.WriteLine("Чётные числа данного массива: ");
 int countsForEven = showEvenNumbers(array);
-if (countsForEven == 0)
+if (countsForEven == 0) // Если количество цифр (count) в методе равен 0, значит чёт отсутствуют.
 {
     Console.Write("Отсутствуют.");
 }
 Console.WriteLine();
 Console.WriteLine("Количество чётных чисел: " + countsForEven);
+Console.WriteLine();
+Console.WriteLine();
 Console.WriteLine("Нечётные числа данного массива: ");
 int countsForUnEven = showUnevenNumbers(array);
-if (countsForUnEven == 0)
+if (countsForUnEven == 0) // Если количество цифр (count) в методе равен 0, значит нечёт отсутствуют.
 {
     Console.Write("Отсутствуют.");
 }
 Console.WriteLine();
 Console.WriteLine("Количество нечётных чисел: " + countsForUnEven);
 Console.WriteLine();
-
-
-
-
