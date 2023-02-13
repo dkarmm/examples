@@ -24,7 +24,7 @@ void showRandomNumbers(int[] array)
     }
 }
 
-void showEvenNumbers(int[] array)
+int showEvenNumbers(int[] array)
 {
     int index = 0;
     int size = array.Length;
@@ -35,17 +35,13 @@ void showEvenNumbers(int[] array)
         {
             Console.Write(array[index] + " ");
             count++;
-            if (count == 0);
-            {
-                Console.Write("Отсутствуют.");
-            }
         }
         index++;
     }
-    
+    return count;
 }
 
-void showUnevenNumbers(int[] array)
+int showUnevenNumbers(int[] array)
 {
     int index = 0;
     int size = array.Length;
@@ -59,7 +55,7 @@ void showUnevenNumbers(int[] array)
         }
         index++;
     }
-    
+    return count;
 }
 
 Console.Write("Введите размер массива: ");
@@ -67,16 +63,23 @@ int arrayLength = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[arrayLength];
 
-
 addNumbers(array);
 Console.WriteLine("Числа в массиве: ");
 showRandomNumbers(array);
 Console.WriteLine();
 Console.WriteLine("Чётные числа данного массива: ");
-showEvenNumbers(array);
+int countsForEven = showEvenNumbers(array);
+if (countsForEven == 0)
+{
+    Console.Write("Отсутствуют.");
+}
 Console.WriteLine();
 Console.WriteLine("Нечётные числа данного массива: ");
-showUnevenNumbers(array);
+int countsForUnEven = showUnevenNumbers(array);
+if (countsForUnEven == 0)
+{
+    Console.Write("Отсутствуют.");
+}
 Console.WriteLine();
 
 
