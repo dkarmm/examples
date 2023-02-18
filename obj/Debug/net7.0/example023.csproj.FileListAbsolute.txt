@@ -1,0 +1,15 @@
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.csproj.AssemblyReference.cache
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.GeneratedMSBuildEditorConfig.editorconfig
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.AssemblyInfoInputs.cache
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.AssemblyInfo.cs
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.csproj.CoreCompileInputs.cache
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/bin/Debug/net7.0/example023
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/bin/Debug/net7.0/example023.deps.json
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/bin/Debug/net7.0/example023.runtimeconfig.json
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/bin/Debug/net7.0/example023.dll
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/bin/Debug/net7.0/example023.pdb
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.dll
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/refint/example023.dll
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.pdb
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/example023.genruntimeconfig.cache
+/home/dkarmm/Рабочий стол/Homework 17.02.2023/example023/obj/Debug/net7.0/ref/example023.dll
